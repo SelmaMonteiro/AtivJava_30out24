@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de script com objetos de Formulários</title>
+    <script>
+        function mudarCor(cor) {
+            document.body.style.backgroundColor = cor;
+        }
+    </script>
+</head>
+<body>
+
+    <form name="form1">
+        <center>
+            <h3> Clique em uma das opções para alterar a cor da sua página </h3>
+            <input type="radio" name="cor" value="blue" onclick="mudarCor(this.value)"> Azul<br>
+            <input type="radio" name="cor" value="red" onclick="mudarCor(this.value)"> Vermelho<br>
+            <input type="radio" name="cor" value="green" onclick="mudarCor(this.value)"> Verde<br>
+            <input type="radio" name="cor" value="yellow" onclick="mudarCor(this.value)"> Amarelo<br>
+            <input type="radio" name="cor" value="gold" onclick="mudarCor(this.value)"> Amarelo Ouro<br>
+            <input type="radio" name="cor" value="cyan" onclick="mudarCor(this.value)"> Azul Claro<br>
+            <input type="radio" name="cor" value="lime" onclick="mudarCor(this.value)"> Verde Claro<br>
+        </center>
+    </form>
+
+</body>
+</html>
